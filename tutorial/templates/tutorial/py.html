@@ -1,0 +1,62 @@
+{% extends "item_base.html" %} {% load static %}
+
+<!-- Heading -->
+{% block heading %} Python Programming From Scratch {% endblock heading %}
+
+<!-- Course Logo -->
+{% block course_logo %}
+<img src="{% static 'tutorial/images/py.png' %}" alt="" />
+{% endblock course_logo %}
+
+
+   <!-- Short Course Description -->
+   {% block short_descrip %}
+   A Course that teaches the fundamentals of software development and takes you from Zero to Hero in python programming.
+   {% endblock short_descrip %}
+
+<!-- Course DUrations -->
+{% block duration %}
+<p>3 months (24 days)</p>
+{% endblock duration %}
+
+<!-- What To Learn List -->
+{% block what_you_learn %} 
+<li>The fundamentals of programming </li>
+<li>Basic algorithms and problem-solving strategies</li> 
+<li>How to use Python's built-in functions and libraries to perform common tasks and operations </li>
+<li>How to write and run Python programs in a development environment </li>
+<li>How to debug and troubleshoot common programming errors</li>
+<li>How to work with Python modules and packages </li>
+{% endblock what_you_learn %}
+
+<!-- Pricing -->
+{% block price %}
+<h2 class="sub-heading green-text" >Limited Time Offer</h2>
+<h2 class="sub-heading black-text">&#8358;100,000.00</h2>
+<strike style="color: #1111114e">
+  <h2 style="color: #1111112f" class="sub-heading">&#8358;150,000.00</h2>
+</strike>
+{% endblock price %}
+
+<!-- Course Description -->
+{% block course_description %} 
+Unlock the power of computer programming using
+Python programming language. In this course, you will learn common algorithms
+and programming principles using the standard library distributed with Python.
+Upon completion, you will be able to design, code and debug simple python
+language programs 
+{% endblock course_description %}
+
+<!-- Course Module -->
+{% block course_outline_list %} 
+<li>What is Python</li>
+<li>Setting up our coding Environment</li>
+<li>Python fundamentals</li>
+<li>Basic algorithms and problem-solving strategies</li>
+<li>How to use Python's built-in functions and libraries to perform common tasks and operations</li>
+<li>How to write and run Python programs in a development environment</li>
+<li>How to debug and troubleshoot common programming errors</li>
+<li>Object-oriented programming (OOP) concepts and how to apply them in Python</li>
+<li>Best practices for organizing and structuring Python code</li>
+<li>How to work with Python modules and packages</li>
+{% endblock course_outline_list %}

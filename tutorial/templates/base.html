@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'tutorial/tutorial.css' %}" />
+
+    <title>Home Page</title>
+  </head>
+  <body>
+    <!-- NavBar Starts -->
+
+    <nav>
+      <div class="navbar">
+        <div class="navbar-wrapper">
+          <div class="brand">
+            <a href="/">
+            <img src="{% static 'tutorial/images/logo.png' %}" alt="" />
+          </a>
+          </div>
+
+          <div class="options">
+
+            <div class="big-screen-options">
+ <a href="#courses">Courses</a>
+            <a href="#instructor">Your Instructor</a>
+            </div>
+           
+
+            <button class="small-screen-toggle" onclick="showNavdropdown()">
+              <img src="{% static 'tutorial/images/menu.svg' %}" height="100%" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="nav-dropdownID" class="nav-dropdown ">
+        <div class="nav-dropdown-wrapper">
+          
+            <a href="#courses">Courses</a>
+          
+            <a href="#instructor">Your Instructor</a>
+          
+        </div>
+        
+        
+      </div>
+    </nav>
+
+    <!-- Navbar Ends -->
+
+    {% block body %} {% endblock body %}
+    <footer>
+      <div class="footer">
+      <div class="footer-wrapper">
+<div class="brand">
+  <img src="{% static 'tutorial/images/logo.png' %}" alt="" />
+</div>
+<div class="text center">
+&copy; 2023 Smart Technology Nigeria. All Rights Reserved 
+</div>
+<div class="social">
+
+</div>
+      </div>
+    </div>
+    </footer>
+      
+    
+    <script>
+      const showNavdropdown = () =>{
+        var dropdownNav = document.getElementById('nav-dropdownID')
+        dropdownNav.classList.toggle('show-nav-dropdown')
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,108 @@
+DJANGO DESCR
+Learn to build dynamic web applications using Python and the Django web framework. In this course, you will gain hands-on experience creating web applications with Django, starting from project setup and progressing through building custom views, templates, and models. You'll also learn how to integrate user authentication, handle static and media files, and implement caching for improved performance. By the end of the course, you'll have built a fully functional web application, ready for deployment to the cloud. Whether you're an aspiring web developer or seeking to enhance your existing skillset, this course will equip you with the tools and knowledge to create robust web applications using Python and Django
+
+
+HTML CSS DESCRIP
+Learn the fundamentals of HTML and CSS, the building blocks of the web. In this course, you'll gain a solid foundation in web design, starting from the basics of HTML tags and structure, and progressing to styling your pages with CSS. You'll learn how to create responsive designs that adapt to various screen sizes and devices, and how to optimize your website for search engines. By the end of the course, you'll have the skills to create your own website from scratch, ready to publish to the web.
+<!--  -->
+The fundamentals of HTML, including tags, attributes, and structure
+The basics of CSS, including selectors, properties, and styles
+How to create and manage responsive layouts using CSS grid and flexbox
+How to use JavaScript to add dynamic and interactive functionality to your web pages
+How to manipulate the Document Object Model (DOM) with JavaScript to create dynamic web pages
+
+Best practices for optimizing your code for performance, accessibility, and search engines
+<!--  -->
+
+
+
+JAVASCRIPT DESCRIP
+Discover the power of JavaScript, the language of the web. In this course, you'll learn the fundamentals of JavaScript programming, from variables and data types to control structures, functions, and objects. You'll explore how to manipulate the Document Object Model (DOM) to create dynamic, interactive web pages that respond to user input. You'll also learn how to leverage third-party libraries and frameworks to build richer, more complex web applications. By the end of the course, you'll have the skills to add dynamic, interactive functionality to your web projects and create compelling user experiences.
+
+
+REACT DESCRIPT
+Master the art of building modern, dynamic web applications with React. In this course, you'll learn how to use React to create reusable components, manage state and data flow, and interact with APIs to build fully functional web applications. You'll also explore best practices for styling and responsiveness, and learn how to debug and test your code for optimal performance. By the end of the course, you'll have the skills to build dynamic, responsive user interfaces and deliver seamless, high-performance web applications.
+<!--  -->
+How to build and structure React applications
+How to create and manage reusable components
+How to manage state and data flow using React hooks and context
+How to interact with APIs and handle asynchronous data in React
+Best practices for styling and responsiveness in React
+How to leverage third-party libraries and frameworks to build richer, more complex applications
+How to debug and test your React code for optimal performance
+How to deploy and host your React applications in the cloud
+<!--  -->
+
+
+PY FROM SCRATCH
+Unlock the power of Python for data science and analysis. In this course, you'll learn how to use Python to explore and manipulate data, and extract insights and value from complex datasets. You'll explore popular libraries such as NumPy, Pandas, and Matplotlib, and learn how to apply statistical and machine learning techniques to real-world data. You'll also learn how to use Jupyter Notebook to document your work and present your findings. By the end of the course, you'll be equipped with the tools and knowledge to extract insights and make data-driven decisions using Python.
+
+<!--  -->
+The fundamentals of programming, including data types, control structures, and functions
+Basic algorithms and problem-solving strategies
+How to use Python's built-in functions and libraries to perform common tasks and operations
+How to write and run Python programs in a development environment
+How to debug and troubleshoot common programming errors
+Object-oriented programming (OOP) concepts and how to apply them in Python
+Best practices for organizing and structuring Python code
+How to work with Python modules and packages
+<!--  -->
+
+
+
+
+
+
+
+<!-- ////////////////////////////////////////// -->
+HTML, CSS, and JavaScript
+Introduction to HTML
+HTML tags and elements
+Basic HTML document structure
+Text formatting
+Creating lists and links
+Images and multimedia
+Introduction to CSS
+Basic selectors and properties
+Styling text and backgrounds
+Box model and layout
+Responsive design
+CSS frameworks
+Introduction to JavaScript
+Basic syntax and data types
+Functions and control structures
+Document Object Model (DOM)
+Handling user input
+Event listeners
+Debugging and error handling
+Python from Scratch
+Introduction to Python
+Basic data types and variables
+Control structures and loops
+Functions and modules
+Lists and dictionaries
+File input/output
+Object-Oriented Programming
+Classes and objects
+Inheritance and polymorphism
+Encapsulation and abstraction
+Python Libraries
+NumPy and SciPy
+Pandas
+Matplotlib
+Scikit-learn
+Python Django
+Introduction to Django
+Installing Django and setting up a development environment
+Django project and app structure
+URL routing and views
+Working with templates and forms
+Models and Databases
+Creating and querying models
+Database migrations
+Admin site customization
+User authentication and authorization
+Advanced Django Topics
+Django REST Framework
+Working with external APIs
+Building a full-stack web application with Django and React

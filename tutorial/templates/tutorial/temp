@@ -1,0 +1,32 @@
+{% extends "item_base.html" %} {% load static %} 
+
+<!-- Heading -->
+{% block heading %} {% endblock heading %}
+
+
+<!-- Course Logo -->
+{% block course_logo %} 
+         
+{% endblock course_logo %}
+
+
+
+<!-- Course DUrations -->
+{% block duration %} {% endblock duration %}
+
+<!-- What To Learn List -->
+{% block what_you_learn %} 
+
+{% endblock what_you_learn %}
+
+
+<!-- Pricing -->
+{% block price %} {% endblock price %}
+
+
+<!-- Course Description -->
+{% block course_description %} 
+{% endblock course_description %}
+
+<!-- Course Module -->
+{% block course_outline_list %} {% endblock course_outline_list %}

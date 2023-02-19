@@ -1,0 +1,62 @@
+{% extends "item_base.html" %} {% load static %}
+
+<!-- Heading -->
+{% block heading %}
+Python Django for web development (Backend)
+{% endblock heading %}
+
+
+<!-- Course Logo -->
+{% block course_logo %} 
+            <img src="{% static 'tutorial/images/django.png' %}" alt="">
+            {% endblock course_logo %}
+
+
+            <!-- Short Course Description -->
+{% block short_descrip %}
+A course that will teach you how to create real world backend for any project and make a living as a python backend developer
+{% endblock short_descrip %}
+
+<!-- Course DUrations -->
+{% block duration %}
+<p>3 months (24 days)</p>
+{% endblock duration %}
+
+<!-- What To Learn List -->
+{% block what_you_learn %}
+<li>Master Python's Fundamental Syntax and Core Concepts</li>
+<li>
+  Discover Various Aspects of App Development, Including Templates, Models,
+  Migrations, Admin Customization, and More
+</li>
+<li>
+  Create a Blog Web Application Using Django Framework and Postgres Database
+</li>
+<li>How to create a virtual environment</li>
+<li>How to deploy Django apps</li>
+
+{% endblock what_you_learn %}
+
+<!-- Pricing -->
+{% block price %}
+<h2 class="sub-heading black-text">&#8358;180,000.00</h2>
+<!-- <strike style="color: #1111114e">
+  <h2 style="color: #1111112f" class="sub-heading">&#8358;200,000.00</h2>
+</strike> -->
+{% endblock price %}
+
+<!-- Course Description -->
+{% block course_description %} Learn to build dynamic web applications using
+Python and the Django web framework. In this course, you will gain hands-on
+experience creating web applications with Django, starting from project setup
+and progressing through building custom views, templates, and models. You'll
+also learn how to integrate user authentication, handle static and media files,
+and implement caching for improved performance. By the end of the course, you'll
+have built a fully functional web application, ready for deployment to the
+cloud. Whether you're an aspiring web developer or seeking to enhance your
+existing skillset, this course will equip you with the tools and knowledge to
+create robust web applications using Python and Django 
+{% endblock course_description %}
+
+<!-- Course Module -->
+{% block course_outline_list %} {% endblock course_outline_list %}
