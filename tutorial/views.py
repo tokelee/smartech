@@ -7,17 +7,18 @@ from datetime import datetime
 
 
 def index(request):
-    response = render(request, 'tutorial/index.html')
+    description = "Discover a new level of web development and programming with Smartech's professional courses. Our project-based approach provides hands-on experience to solidify complex concepts, with explanations delivered in an easy-to-understand manner"
+    response = render(request, 'tutorial/index.html', {'description':description})
     return response
 
 def py_django_page(request):
-    response = render(request, 'tutorial/py_django.html')
+    response = render(request, 'tutorial/py_django.html', {'title':'Python Django For Web development'})
     return response
 
 def frontend(request):
-    response = render(request, 'tutorial/frontend.html')
+    response = render(request, 'tutorial/frontend.html', {'title':'Frontend Web Development'})
     return response
 
 def python(request):
-    response = render(request, 'tutorial/py.html')
+    response = render(request, 'tutorial/py.html', {'title':'Python Programming from scratch'})
     return response
